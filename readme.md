@@ -26,18 +26,14 @@ Data Sweeper is a user-friendly web application for transforming files between C
    cd Data-Sweeper-Assignment
 
 2. Create a virtual environment:
-    ```bash
-  python -m venv venv
-  source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. Install dependencies:
-    ```bash
   pip install -r requirements.txt
 
 ## 📊 Usage
-
 1. Start the application:
-   ```bash
   streamlit run app.py
 
 2. Open your browser and navigate to the displayed URL (typically http://localhost:8501)
@@ -56,7 +52,6 @@ Data Sweeper is a user-friendly web application for transforming files between C
 ## 📝 Requirements
 
 1. Create a requirements.txt file with these dependencies:
-   ```bash
   streamlit>=1.15.0
   pandas>=1.3.0
   openpyxl>=3.0.0
