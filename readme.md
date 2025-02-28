@@ -31,10 +31,10 @@ Data Sweeper is a user-friendly web application for transforming files between C
    source venv/bin/activate  # On Windows: venv\Scripts\activate
     
 
-3. Install dependencies:
-  ```bash
-  pip install -r requirements.txt
-  
+3. Create a virtual environment:
+   ```bash
+   pip install -r requirements.txt
+    
 
 ## 📊 Usage
  
